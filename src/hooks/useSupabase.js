@@ -218,7 +218,14 @@ export const useDiscoverUsers = (filters = {}) => {
     }
   }, [user, filters]);
 
-  return { users, loading };
+  const refetchUsers = () => {
+    if (user) {
+      setLoading(true);
+      fetchUsers();
+    }
+  };
+
+  return { users, loading, refetch: refetchUsers };
 };
 
 /**

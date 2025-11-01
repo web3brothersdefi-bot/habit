@@ -15,6 +15,7 @@ import Socials from './pages/onboarding/Socials';
 import HabitsGoals from './pages/onboarding/HabitsGoals';
 import Dashboard from './pages/Dashboard';
 import Requests from './pages/Requests';
+import ManageStakes from './pages/ManageStakes';
 import Chats from './pages/Chats';
 import Leaderboard from './pages/Leaderboard';
 import Profile from './pages/Profile';
@@ -160,6 +161,14 @@ function App() {
             element={
               <ProtectedRoute>
                 <Requests />
+              </ProtectedRoute>
+            }
+          />
+          <Route
+            path="/manage-stakes"
+            element={
+              <ProtectedRoute>
+                <ManageStakes />
               </ProtectedRoute>
             }
           />

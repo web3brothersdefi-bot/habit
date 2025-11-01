@@ -4,7 +4,7 @@ version = "1.0.0"
 authors = ["Habit Team"]
 
 [addresses]
-habit = "0x78be456e78ffec3148be7b55580d91adc963e6affdf5a77672d31e44c0baa84c"
+habit = "_"
 
 [dev-addresses]
 

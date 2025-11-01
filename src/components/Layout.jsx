@@ -22,6 +22,7 @@ const Layout = ({ children, showNavigation = true }) => {
 
   const navItems = [
     { icon: Home, label: 'Discover', path: '/dashboard' },
+    { icon: Mail, label: 'Requests', path: '/requests' },
     { icon: MessageCircle, label: 'Chats', path: '/chats' },
     { icon: Trophy, label: 'Leaderboard', path: '/leaderboard' },
     { icon: User, label: 'Profile', path: '/profile' },

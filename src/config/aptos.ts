@@ -4,7 +4,7 @@ import { PetraWallet } from "petra-plugin-wallet-adapter";
 // ========== APTOS CONFIGURATION ==========
 
 // Network configuration
-export const APTOS_NETWORK = Network.TESTNET; // Using testnet
+export const APTOS_NETWORK = Network.DEVNET; // Using devnet (more stable than testnet)
 
 // Aptos client configuration
 const aptosConfig = new AptosConfig({
